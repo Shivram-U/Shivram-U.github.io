@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href = "index.css">
+<body>
       <div ID = "HD">
             <h1>U.Shivram's Profile</h1> 
+                  <nav>
+                        <ul>
+                            <li><a class="tbs" href="index.html">Details</a></li>
+                            <li><a class="tbs" href="Profile.html">Profile</a></li>
+                            <li><a class="tbs" href="Resume.html">Resume</a></li>
+                            <li><a class="tbs" href="Files.html">Files</a></li>
+                        </ul>
+                  </nav>
       </div>
+      <!--
       <div class="field" id= "name">
-            <label class="lb">Name:</label>
-            <label>Shivram</label><br>
+            <label style="padding:60px;"class="lb">Name:</label>
+            <label style="padding:100px;">Shivram</label><br>
       </div>
-      <div class="field">
-            <label class="lb">Age:</label><br>
-      </div>
-      <div class="field">
-            <label class="lb">Gender:</label><br>
-      </div>
-      <div class="field">
-            <label class="lb">Location:</label><br>
-      </div>
-      <div class="field">
-            <label class="lb">Phone_Number:</label><br>
-      </div>
-      <div class="field">
-            <label class="lb">Mail_ID:</label><br>
-      </div>
+      -->
+</body>
 <script>
-      function position()
+      //alert("meow");
+      let doc = Document;
+      let Detls_divs = [];
+      window.onload = setTimeout(fadeout,0);
+      window.onload = setTimeout(Display_Details,0);
+      let val=0;
+      function fadeout()
       {
-            int ord= 100px;
-            document.getElementById("")
+            if(val<100)
+                  setTimeout(fadeout,50);
+            let lia = document.getElementsByTagName("li");
+            //alert("mewo");
+            //console.log(lia);
+            for(i=0;i<lia.length;i++)
+            {
+                  lia[i].style.opacity=val+"%";
+            }
+            val+=10
       }
+      function Display_Details()
+      {
+            for(i=0;i<6;i++)
+            {
+                  Detls_divs.push(document.createElement('div'));
+                  Detls_divs[i].classname="field"
+                  Detls_divs[i].style.backgroundColor="#00ffff";
+                  Detls_divs[i].style.width="100px"
+                  Detls_divs[i].appendChild(document.createElement('label'));
+                  document.body.appendChild(Detls_divs[i]);
+            }
+      }     
 </script>
 </html>
 
