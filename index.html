@@ -3,7 +3,7 @@
 <link rel="stylesheet" href = "index.css">
 <body>
       <div ID = "HD">
-            <h1>U.Shivram's Profile</h1> 
+            <h1 id = "h1">U.Shivram's Profile</h1> 
                   <nav>
                         <ul>
                             <li><a class="tbs" href="index.html">Details</a></li>
@@ -13,6 +13,8 @@
                         </ul>
                   </nav>
       </div>
+      <!-- Page -->
+      <!-- <object id="page" type="text/html" data="index.html"></object> -->
       <!--
       <div class="field" id= "name">
             <label style="padding:60px;"class="lb">Name:</label>
@@ -21,12 +23,28 @@
       -->
 </body>
 <script>
+      window.addEventListener('resize', function () { 
+            "use strict";                 // JavaScript Old Verison, Implementation
+            window.location.reload(); 
+        });
       //alert("meow");
-      let doc = Document;
+      let doc = document;
+      let Bw = window.innerWidth;               // Width remaining, after other components occupying the Web Page.
+      let Sw = window.screen.availWidth;        // Actual Width      
+      let Bh = window.innerHeight;              // Width remaining, after other components occupying the Web Page.
+      let Sh = window.screen.availHeight;       // Actual Height  
+      // Header Dimension:
+            doc.getElementById("HD").style.width=Bw+"px";
+            doc.getElementById("h1").style.width=Bw/3+"px";
+            doc.getElementById("h1").style.marginLeft=Bw/3+"px";
+      doc.getElementById("page").style.width=Bw+"px";
+      doc.getElementById("page").style.height=(Bh-77)+"px";
+      console.log(Bw+','+Sw+','+Bh+','+Sh)
       let Detls_divs = [];
       window.onload = setTimeout(fadeout,0);
       window.onload = setTimeout(Display_Details,0);
       let val=0;
+      if(document.nam)
       function fadeout()
       {
             if(val<100)

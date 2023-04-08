@@ -26,16 +26,16 @@ html
 h1
 {
     border-radius: 10px;
-    width: 500px;
     text-align: center;
     font-family: Helvetica;
     font-weight: 100;
     background-color: #000000;
     color: aqua;
-    margin: 0px 0px 0px 500px;
+    margin: 0px 0px 0px 0px;
 }
 nav
 {
+    align-items: center;
     color: #ffffff;
     display:inline;
     font-family: Helvetica;
@@ -71,6 +71,13 @@ li a:hover
     color:#00ffff;
     background-color: #1f1f1f;
 }
+
+#page
+{
+    background-color: #00ffff;
+    margin-top: 0px;
+}
+/*
 #frm
 {
     background-color: #1f1f1f;
@@ -95,3 +102,4 @@ li a:hover
 {
     margin-top: 100px; 
 }
+*/
