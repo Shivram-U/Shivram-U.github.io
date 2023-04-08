@@ -11,7 +11,7 @@ html
 }
 #HD
 {
-    background-color: #4f4f4f;
+    background-color: #ff0000;
     height: 77px;
     margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
     padding: 1px 0px 1px 0px;
@@ -51,6 +51,7 @@ ul
 }
 li
 {
+    display:inline;
     float: left;
 }
 button
