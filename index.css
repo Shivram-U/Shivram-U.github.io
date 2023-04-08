@@ -6,12 +6,12 @@ body,html               /*  to remove the Spaces between tags and the Border of 
 }
 html
 {
-    background-color: black;
     color:#00ffff;
+    background-color: black;
 }
 #HD
 {
-    background-color: #1f1f1f;
+    background-color: #4f4f4f;
     height: 77px;
     margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
     padding: 1px 0px 1px 0px;
@@ -19,7 +19,6 @@ html
 #tabs
 {
     background-color: #3f3f3f;
-    height: 40px;
     margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
     padding: 1px 0px 1px 0px;
 }
@@ -38,10 +37,7 @@ nav
     align-items: center;
     color: #ffffff;
     display:inline;
-    font-family: Helvetica;
-    font-weight: 100;
-    font-size:x-large;
-    background-color: #5f5f5f;
+    
 }
 ul
 {
@@ -58,15 +54,20 @@ li
     display:inline;
     float: left;
 }
-li a
-{
-    display: block;
-    color: white;
-    text-align: center;
+.tbs
+{   
+    border: none;
     padding: 10px 24px;
-    text-decoration: none;
+    transition-duration: 0.2s;
+    outline: none;
+    color: white;
+    background-color: #5f5f5f;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size:x-large;
 }
-li a:hover
+.tbs:hover
 {
     color:#00ffff;
     background-color: #1f1f1f;
@@ -74,6 +75,8 @@ li a:hover
 
 #page
 {
+    border: none;
+    position: relative;
     background-color: #00ffff;
     margin-top: 0px;
 }
