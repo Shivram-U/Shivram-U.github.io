@@ -1,0 +1,35 @@
+body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
+{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    border:none;
+}
+html
+{
+    color: #00ffff;
+    background-color: #222222;
+}
+.Desc
+{
+    position: absolute;
+    left:300px;
+    width: 350px;
+    background-color: #3f3f3f;
+    font-family: Helvetica;
+    font-size: x-large;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    border-radius: 60px 0px 0px 60px;
+}
+.Vals
+{
+    position: absolute;
+    left:650px;
+    width: 550px;
+    background-color: #000000;
+    font-family: Helvetica;
+    font-size: x-large;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    border-radius: 0px 60px 60px 0px;
+}

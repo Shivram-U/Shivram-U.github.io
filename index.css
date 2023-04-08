@@ -11,14 +11,11 @@ html
 }
 #HD
 {
-    background-color: #4f4f4f;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    background-color: #777777;
     height: 77px;
-    margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
-    padding: 1px 0px 1px 0px;
-}
-#tabs
-{
-    background-color: #3f3f3f;
     margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
     padding: 1px 0px 1px 0px;
 }
@@ -47,7 +44,7 @@ ul
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #2f2f2f;
+    background-color: #3f3f3f;
 }
 li
 {
@@ -56,12 +53,12 @@ li
 }
 .tbs
 {   
-    background-color: #5f5f5f;
     border: none;
     padding: 10px 24px;
     transition-duration: 0.2s;
     outline: none;
     color: white;
+    background-color: #3f3f3f;
     text-align: center;
     font-family: Helvetica;
     font-weight: 100;

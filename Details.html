@@ -1,4 +1,39 @@
 <!DOCTYPE html>
-<html style="background-color:#ffffff;">
-
+<html >
+    <link rel="stylesheet" href="Details.css">
+    <body>
+        <form id="frm">
+            <label id="d1" class="Desc">Name</label>
+            <label id="v1" class="Vals">t</label><br>
+            <label id="d2" class="Desc">Age</label>
+            <label id="v2" class="Vals">t</label><br>
+            <label id="d3" class="Desc">Gender</label>
+            <label id="v3" class="Vals">t</label><br>
+            <label id="d4" class="Desc">Qualification</label>
+            <label id="v4" class="Vals">t</label><br>
+            <label id="d5" class="Desc">Mail ID</label>
+            <label id="v5" class="Vals">t</label><br>
+            <label id="d6" class="Desc">Phone Number</label>
+            <label id="v6" class="Vals">t</label><br>
+        </form>
+    </body>
+    <script>
+        let dc = document;
+        let val =60;
+        window.onload = setTimeout(Assign_Values,0);
+        window.onload = setTimeout(Position_Elements,0);
+        function Position_Elements()
+        {
+            for(i=1;i<=6;i++)
+            {
+                dc.getElementById("d"+i).style.marginTop= val+"px";
+                dc.getElementById("v"+i).style.marginTop= val+"px";
+                val+=70;
+            }
+        }
+        function Assign_Values()
+        {
+            
+        }
+    </script>
 </html>
