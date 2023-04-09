@@ -31,9 +31,25 @@
                 val+=70;
             }
         }
-        function Assign_Values()
+        function Assign_Values(jsn_dt)
         {
-            
+            dc.getElementById('v1').innerHTML = jsn_dt.Name;
+            dc.getElementById('v2').innerHTML = jsn_dt.Age;
+            dc.getElementById('v3').innerHTML = jsn_dt.Gender;
+            dc.getElementById('v4').innerHTML = jsn_dt.Qualification;
+            dc.getElementById('v5').innerHTML = jsn_dt.Phone_Number;
+            dc.getElementById('v6').innerHTML = jsn_dt.Mail_ID;
         }
+        // Data Files Request and Parse:
+            fetch('./Data_Files/Details.json')
+            .then(function (response) {
+            return response.json();
+            })
+            .then(function (data) {
+            Assign_Values(data);
+            })
+            .catch(function (err) {
+            console.log(err);
+            });
     </script>
 </html>
