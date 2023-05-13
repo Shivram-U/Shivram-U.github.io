@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 /* For Desktop Devices */
-=======
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
 body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
 {
     margin:0 0 0 0;
@@ -15,11 +12,8 @@ html
 }
 .Desc
 {
-<<<<<<< HEAD
     z-index: 1;
     opacity: 100%;
-=======
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
     position: absolute;
     left:300px;
     width: 350px;
@@ -32,16 +26,11 @@ html
 }
 .Vals
 {
-<<<<<<< HEAD
     z-index: 0;
     opacity: 100%;
     position: absolute;
     /*left:410px;*/
     left: 650px;
-=======
-    position: absolute;
-    left:650px;
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
     width: 550px;
     background-color: #000000;
     font-family: Helvetica;
@@ -50,7 +39,6 @@ html
     padding: 15px 0px 15px 0px;
     border-radius: 0px 60px 60px 0px;
 }
-<<<<<<< HEAD
 .Vals:hover
 {
     background-color: #ffffff;
@@ -200,5 +188,3 @@ html
         margin-top: 1200px;
     }
 }
-=======
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
