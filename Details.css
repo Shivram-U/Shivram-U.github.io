@@ -1,0 +1,190 @@
+/* For Desktop Devices */
+body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
+{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    border:none;
+}
+html
+{
+    color: #00ffff;
+    background-color: #222222;
+}
+.Desc
+{
+    z-index: 1;
+    opacity: 100%;
+    position: absolute;
+    left:300px;
+    width: 350px;
+    background-color: #3f3f3f;
+    font-family: Helvetica;
+    font-size: x-large;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    border-radius: 60px 0px 0px 60px;
+}
+.Vals
+{
+    z-index: 0;
+    opacity: 100%;
+    position: absolute;
+    /*left:410px;*/
+    left: 650px;
+    width: 550px;
+    background-color: #000000;
+    font-family: Helvetica;
+    font-size: x-large;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    border-radius: 0px 60px 60px 0px;
+}
+.Vals:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+#v1
+{
+    margin-top: 60px;
+}
+#v2
+{
+    margin-top: 130px;
+}
+#v3
+{
+    margin-top: 190px;
+}
+#v4
+{
+    margin-top: 260px;
+}
+#v5
+{
+    margin-top: 330px;
+}
+#v6
+{
+    margin-top:390px;
+}
+#d1
+{
+    margin-top: 60px;
+}
+#d2
+{
+    margin-top: 130px;
+}
+#d3
+{
+    margin-top: 190px;
+}
+#d4
+{
+    margin-top: 260px;
+}
+#d5
+{
+    margin-top: 330px;
+}
+#d6
+{
+    margin-top:390px;
+}
+@media only screen and (max-width:1440px)       /* For Phones */
+{
+    body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
+    {
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        border:none;
+    }
+    html
+    {
+        color: #00ffff;
+        background-color: #222222;
+    }
+    .Desc
+    {
+        z-index: 1;
+        opacity: 100%;
+        position: absolute;
+        left:70px;
+        width: 550px;
+        background-color: #3f3f3f;
+        font-family: Helvetica;
+        font-size: 70px;
+        text-align: center;
+        padding: 15px 0px 15px 0px;
+        border-radius: 60px 0px 0px 60px;
+    }
+    .Vals
+    {
+        z-index: 0;
+        opacity: 100%;
+        position: absolute;
+        /*left:410px;*/
+        left: 620px;
+        width: 750px;
+        background-color: #000000;
+        font-family: Helvetica;
+        font-size:70px;
+        text-align: center;
+        padding: 15px 0px 15px 0px;
+        border-radius: 0px 60px 60px 0px;
+    }
+    .Vals:hover
+    {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    #v1
+    {
+        margin-top: 200px;
+    }
+    #v2
+    {
+        margin-top: 400px;
+    }
+    #v3
+    {
+        margin-top: 600px;
+    }
+    #v4
+    {
+        margin-top: 800px;
+    }
+    #v5
+    {
+        margin-top: 1000px;
+    }
+    #v6
+    {
+        margin-top: 1200px;
+    }
+    #d1
+    {
+        margin-top: 200px;
+    }
+    #d2
+    {
+        margin-top: 400px;
+    }
+    #d3
+    {
+        margin-top: 600px;
+    }
+    #d4
+    {
+        margin-top: 800px;
+    }
+    #d5
+    {
+        margin-top: 1000px;
+    }
+    #d6
+    {
+        margin-top: 1200px;
+    }
+}

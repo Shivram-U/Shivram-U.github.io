@@ -1,0 +1,30 @@
+body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
+{
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    border:none;
+}
+html
+{
+    color: #00ffff;
+    background-color: #222222;
+}
+#profsum
+{
+    height: 30px;
+    width: 40px;
+}
+.tgs
+{
+    background-color: #3f3f3f;
+}
+#prf
+{
+    border-radius: 30px;
+    position:absolute;
+    transform: rotate(-90deg);
+    width: 350px;
+    height: 280px;
+    margin-top: 100px;
+    padding: 0px 0px 0px 0px;
+}
