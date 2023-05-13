@@ -18,7 +18,6 @@
         </form>
     </body>
     <script>
-<<<<<<< HEAD
         // Events:
         window.addEventListener('resize', function () { 
             "use strict";                 // JavaScript Old Version, Implementation
@@ -57,29 +56,16 @@
             lf+=15; 
         }*/
         /*
-=======
-        let dc = document;
-        let val =60;
-        window.onload = setTimeout(Assign_Values,0);
-        window.onload = setTimeout(Position_Elements,0);
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
         function Position_Elements()
         {
             for(i=1;i<=6;i++)
             {
-<<<<<<< HEAD
                 dc.getElementById("v"+i).style.left= 650+"px";  
-=======
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
                 dc.getElementById("d"+i).style.marginTop= val+"px";
                 dc.getElementById("v"+i).style.marginTop= val+"px";
                 val+=70;
             }
-<<<<<<< HEAD
         }*/
-=======
-        }
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
         function Assign_Values(jsn_dt)
         {
             dc.getElementById('v1').innerHTML = jsn_dt.Name;
@@ -89,19 +75,5 @@
             dc.getElementById('v5').innerHTML = jsn_dt.Mail_ID;
             dc.getElementById('v6').innerHTML = jsn_dt.Phone_Number;
         }
-<<<<<<< HEAD
-=======
-        // Data Files Request and Parse:
-            fetch('./Data_Files/Details.json')
-            .then(function (response) {
-            return response.json();
-            })
-            .then(function (data) {
-            Assign_Values(data);
-            })
-            .catch(function (err) {
-            console.log(err);
-            });
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
     </script>
 </html>

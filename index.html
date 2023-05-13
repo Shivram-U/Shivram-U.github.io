@@ -3,11 +3,7 @@
 <link rel="stylesheet" href = "index.css">
 <body>
       <div ID = "HD">
-<<<<<<< HEAD
             <h1 id = "h">Shivram U</h1> 
-=======
-            <h1 id = "h">U.Shivram's Profile</h1> 
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
       </div>     
                   <nav >
                         <ul id="tb">
@@ -18,11 +14,7 @@
                         </ul>
                   </nav>
       <!-- Page -->
-<<<<<<< HEAD
       <iframe id="page" title="Page" src="Profile.html"></iframe>
-=======
-      <iframe id="page" title="Page" src="Details.html"></iframe>
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
       <!--
             <div class="field" id= "name">
             <label style="padding:60px;"class="lb">Name:</label>
@@ -34,7 +26,6 @@
       // Variables:
       let doc = document;
       let dat;
-<<<<<<< HEAD
       let Bw = window.innerWidth;               // Width remaining, after other components occupying the Web Page.
       let Sw = window.screen.availWidth;        // Actual Width      
       let Bh = window.innerHeight;              // Width remaining, after other components occupying the Web Page.
@@ -124,64 +115,6 @@
                   UI_Setup();             
                   
             });
-=======
-      // Events
-            window.addEventListener('resize', function () { 
-                  "use strict";                 // JavaScript Old Verison, Implementation
-                  window.location.reload(); 
-            });
-            document.getElementById("det").onclick= () => {doc.getElementById("page").src="Details.html"};
-            document.getElementById("prof").onclick= () => {doc.getElementById("page").src="Profile.html"};
-            document.getElementById("res").onclick= () => {doc.getElementById("page").src="Resume.html"};
-            document.getElementById("fil").onclick= () => {doc.getElementById("page").src="Files.html"};
-      // Page UI Setup
-            //alert("meow");
-            let Bw = window.innerWidth;               // Width remaining, after other components occupying the Web Page.
-            let Sw = window.screen.availWidth;        // Actual Width      
-            let Bh = window.innerHeight;              // Width remaining, after other components occupying the Web Page.
-            let Sh = window.screen.availHeight;       // Actual Height  
-            // Header Dimension:
-                  doc.getElementById("h").style.width=Bw/3+"px";
-                  doc.getElementById("h").style.marginLeft=Bw/3+"px";
-                  doc.getElementById("HD").style.height=doc.getElementById("h").offsetHeight+"px";
-                  doc.getElementById("HD").style.width=Bw+"px";
-                  doc.getElementById("tb").style.width=Bw+"px";
-                  //console.log("{"+doc.getElementById("HD").offsetHeight);
-                  //doc.getElementById("page").style.marginTop=doc.getElementById("HD").offsetHeight+"px";
-                  doc.getElementById("page").style.width=Bw+"px";
-                  doc.getElementById("page").style.height=(Bh)-90+"px";
-            console.log(Bw+','+Sw+','+Bh+','+Sh)
-            let Detls_divs = [];
-            window.onload = setTimeout(fadeout,0);
-            window.onload = setTimeout(Display_Details,0);
-            let val=0;
-            if(document.nam)
-            function fadeout()
-            {
-                  if(val<100)
-                        setTimeout(fadeout,50);
-                  let lia = document.getElementsByTagName("li");
-                  //alert("mewo");
-                  //console.log(lia);
-                  for(i=0;i<lia.length;i++)
-                  {
-                        lia[i].style.opacity=val+"%";
-                  }
-                  val+=10
-            }
-            function Display_Details()
-            {
-                  for(i=0;i<6;i++)
-                  {
-                        Detls_divs.push(document.createElement('div'));
-                        Detls_divs[i].classname="field"
-                        Detls_divs[i].style.backgroundColor="#00ffff";
-                        Detls_divs[i].style.width="100px"
-                        Detls_divs[i].appendChild(document.createElement('label'));
-                        document.body.appendChild(Detls_divs[i]);
-                  }
-            }     
->>>>>>> 7dccac4349aaaca971dceca5081dfe6c4915ab33
       
 </script>
 </html>
