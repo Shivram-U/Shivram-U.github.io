@@ -8,8 +8,95 @@ Media Queries:
 @media (min-width:1281px) {  hi-res laptops and desktops  }
 */
 
+/* For Desktop Devices */
+@media only screen and (min-width:500px )
+{
+    body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
+    {
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        border:none;
+    }
+    html
+    {
+        color:#00ffff;
+        background-color: black;
+    }
+    #HD
+    {
+        height: 0px;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+        background-color: #777777;
+        margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
+        padding: 1px 0px 1px 0px;
+    }
+    h1
+    {
+        height: 35px;
+        border-radius: 10px;
+        font-family: Helvetica;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        background-color: #000000;
+        color: #00ffff;
+        margin: 0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+    }
+    nav
+    {
+        align-items: center;
+        color: #ffffff;
+        display:inline;
+        
+    }
+    ul
+    {
+        width: 1536px;
+        background-color: #ffffff;
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #3f3f3f;
+    }
+    li
+    {
+        display:inline;
+        float: left;
+    }
+    .tbs
+    {   
+        border: none;
+        padding: 10px 24px;
+        transition-duration: 0.2s;
+        outline: none;
+        color: white;
+        background-color: #3f3f3f;
+        text-align: center;
+        font-family: Helvetica;
+        font-weight: 100;
+        font-size: x-large;
+    }
+    .tbs:hover
+    {
+        color:#00ffff;
+        background-color: #1f1f1f;
+    }
+
+    #page
+    {
+        border: none;
+        position: relative;
+        background-color: #222222;
+        margin-top: 0px;
+    }
+}
+
 /* For Phones */
-@media only screen and (min-width:600px)
+@media only screen and (max-width:1500px) and (min-height:1000px)
 { 
     body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
     {
@@ -41,7 +128,8 @@ Media Queries:
         font-weight: 500;
         font-size: 100px;
         background-color: #000000;
-        color: #00cfcf;
+        /*color: #00cfcf;*/
+        color: #00ff00;
         margin: 0px 0px 0px 0px;
         padding:35px 0px 0px 0px;
     }
@@ -119,90 +207,4 @@ Media Queries:
         margin-top: 100px; 
     }
     */
-}
-/* For Desktop Devices */
-@media only screen and (min-width:992px )
-{
-    body,html               /*  to remove the Spaces between tags and the Border of Browser Window*/
-    {
-        margin:0 0 0 0;
-        padding:0 0 0 0;
-        border:none;
-    }
-    html
-    {
-        color:#00ffff;
-        background-color: black;
-    }
-    #HD
-    {
-        height: 0px;
-        -webkit-user-select: none; /* Safari */
-        -ms-user-select: none; /* IE 10 and IE 11 */
-        user-select: none; /* Standard syntax */
-        background-color: #777777;
-        margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
-        padding: 1px 0px 1px 0px;
-    }
-    h1
-    {
-        height: 35px;
-        border-radius: 10px;
-        font-family: Helvetica;
-        font-weight: 500;
-        font-size: 30px;
-        text-align: center;
-        background-color: #000000;
-        color: #00ff00;
-        margin: 0px 0px 0px 0px;
-        padding:0px 0px 0px 0px;
-    }
-    nav
-    {
-        align-items: center;
-        color: #ffffff;
-        display:inline;
-        
-    }
-    ul
-    {
-        width: 1536px;
-        background-color: #ffffff;
-        overflow: hidden;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #3f3f3f;
-    }
-    li
-    {
-        display:inline;
-        float: left;
-    }
-    .tbs
-    {   
-        border: none;
-        padding: 10px 24px;
-        transition-duration: 0.2s;
-        outline: none;
-        color: white;
-        background-color: #3f3f3f;
-        text-align: center;
-        font-family: Helvetica;
-        font-weight: 100;
-        font-size: x-large;
-    }
-    .tbs:hover
-    {
-        color:#00ffff;
-        background-color: #1f1f1f;
-    }
-
-    #page
-    {
-        border: none;
-        position: relative;
-        background-color: #222222;
-        margin-top: 0px;
-    }
 }
