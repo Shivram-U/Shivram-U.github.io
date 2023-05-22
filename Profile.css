@@ -72,7 +72,7 @@
         width:1200px;
         margin-left: 50px;
         background-color: #8f8f8f;
-        color:#00ffff;
+        color:#0066ff;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 100px;
         padding: 50px 100px 30px 40px;
@@ -109,7 +109,7 @@
     {
         z-index: 2;
         position: absolute;
-        width:200px;
+        width:280px;
         margin-left: 50px;
         background-color: #6f6f6f;
         color:#00ffff;
@@ -118,14 +118,14 @@
         text-align: center;
         padding: 50px 100px 30px 40px;
     }
-    .flda
+    .fldv
     {
         z-index: 2;
         position: absolute;
-        width:1000px;
-        height:180px;
-        margin-left: 390px;
-        background-color: #4f4f4f;
+        width:915px;
+        height:175px;
+        margin-left: 470px;
+        background-color: #1f1f2f;
         color:#00ffff;
         text-align: center;
         line-height: 180px;
@@ -140,5 +140,49 @@
     #Inf1fld2
     {
         margin-top: 1680px;
+    }
+    #Inf1fld3
+    {
+        margin-top: 1953px;
+    }
+    #Inf1fld4
+    {
+        margin-top: 2133px;
+        font-size: 70px;
+    }
+    #Inf1fld5
+    {
+        line-height: 400px;
+        height:450px;
+        margin-top: 2300px;
+        font-size: 80px;
+    }
+
+    #Inf1fldv1
+    {
+        margin-top: 1500px;
+    }
+    #Inf1fldv2
+    {
+        line-height: 270px;
+        height:270px;
+        margin-top: 1680px;
+    }
+    #Inf1fldv3
+    {
+        font-size: 60px;
+        margin-top: 1953px;
+    }
+    #Inf1fldv4
+    {
+        line-height: 160px;
+        font-size: 60px;
+        height:163px;
+        margin-top: 2133px;
+    }
+    #Inf1fldv5
+    {
+        height:530px;
+        margin-top: 2300px;
     }
 }
