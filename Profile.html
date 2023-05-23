@@ -2,23 +2,32 @@
 <html >
     <link rel="stylesheet" href="Profile.css">
     <body>
-        <div class="tgs" id="profsum">
-        </div>
-        <div class="tgs1"></div>            <!-- Border Background for the Profile-Image -->
-            <div class="Inf" id="Inf1">Personal Info</div>
+        <div id="tgs" >
+            <div id="tgs1">            <!-- Border Background for the Profile-Image -->
+                <img id="prf" src="./Data_Files/Profile_Photo.jpg" alt="Profile Photo" />
+            </div>
+            <button class="inflb" >Personal Info</button>
+            <div class="Content">
                 <div class="fld" id="Inf1fld1">Name</div><div class="fldv" id="Inf1fldv1">Shivram U</div>
                 <div class="fld" id="Inf1fld2">Phone Number</div><div class="fldv" id="Inf1fldv2">9361258685</div>
                 <div class="fld" id="Inf1fld3">Gmail</div><div class="fldv" id="Inf1fldv3">udayakumar933@gmail.com</div>
                 <div class="fld" id="Inf1fld4">Linked-in</div><a href="https://www.linkedin.com/in/shivram-u-cse-149949271/" target="_blank" class="fldv" id="Inf1fldv4">Linked-In Profile</a>
                 <div class="fld" id="Inf1fld5">Address</div><div class="fldv" id="Inf1fldv5">3/3 B6 east 1st Street, Pasuvanthanai Road Kovilpatti</div>
-            <div class="Inf" id="Inf2">Contact</div>
-            <div class="Inf" id="Inf3">Education</div>
-            <div class="Inf" id="Inf4">Skills</div>
-            <div class="Inf" id="Inf5">Languages</div>
-            <div class="Inf" id="Inf6">Programming Languages</div>
-            <div class="Inf" id="Inf7">Courses</div>
-
-        <img id="prf" src="./Data_Files/Profile_Photo.jpg" alt="Profile Photo" />
+            </div>
+            <button class="inflb" >Education</button>
+            <div class="Content">
+                <div class="fld" id="Inf2fld1">Degree</div><div class="fldv" id="Inf2fldv1">B.E - Computer Science and Engineering</div>
+                <div class="fld" id="Inf2fld2">Graduation Year</div><div class="fldv" id="Inf2fldv2">2025 (2021-2025)</div>
+                <div class="fld" id="Inf2fld3">Instituition</div><a href="https://nec.edu.in/" target="_blank" class="fldv" id="Inf2fldv3">National Engineering College</a>
+                <div class="fld" id="Inf2fld4">Instituition Location</div><div class="fldv" id="Inf2fldv4">Tuticorin,Tamil Nadu</div>
+            </div>
+            <button class="inflb" >Languages</button>
+            <button class="inflb" >Skills</button>
+            <button class="inflb" >Programming Languages</button>
+            <button class="inflb" >Courses</button>
+            
+        </div>
+            
         <!--
         <form id="frm">
             <label id="d1" class="Desc">Name</label>
@@ -37,6 +46,19 @@
         -->
     </body>
     <script>
+        var coll = document.getElementsByClassName("inflb");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.maxHeight){
+                content.style.maxHeight = null;
+              } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+              } 
+            });
+          }
         // Variables:
             let dc = document;
             let Bw = window.innerWidth;               
