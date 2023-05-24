@@ -41,7 +41,7 @@
         transform: rotate(-90deg);
         width: 1000px;
         height: 800px;
-        margin: 300px 0px 0px 0px;
+        margin: 250px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
         border-radius: 30px;
     }
@@ -59,7 +59,7 @@
     {
         z-index: 1;
         width:100%;
-        height:1500px;
+        height:1300px;
         margin: 0px 0px 0px 0px;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
@@ -67,6 +67,9 @@
     }
     .inflb
     {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
         text-align: left;
         margin-top: 8px;
         border-width: 0px;
@@ -81,6 +84,9 @@
     }
     .fld
     {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
         vertical-align: top;
         display: inline-block;
         z-index: 2;
@@ -107,7 +113,7 @@
         font-size: 80px;
         padding: 0px 0px 0px 0px;
     }
-    .Content
+    .Content        /* Info Fields Set Collapsible Feature */
     {
         padding: 0 0px;
         max-height: 0;
@@ -134,7 +140,7 @@
         }
         #Inf1fld5
         {
-            padding: 147px 0px 144px 0px;
+            padding: 169px 0px 168px 0px;
             font-size: 80px;
         }
         
@@ -159,6 +165,7 @@
         }
         #Inf1fldv5
         {
+            font-size: 70px;
             padding: 50px 0px 53px 0px;
         }
         /* -- Inf1 */
@@ -199,4 +206,57 @@
             padding-top: 7%;
         }
     /* -- Inf2 */
+    /* Inf3 */
+        #Inf3fld1
+        {
+            display: inline-block;
+            width:600px;
+            padding:282px 0px 282px 0px;
+        }
+        #Inf3fld2
+        {
+            display: inline-block;
+            width:600px;
+            padding:95px 0px 95px 0px;
+        }
+        #Inf3fldv1
+        {
+            width:753px;
+            padding:47px 0px 47px 0px;
+        }
+        #Inf3fldv2
+        {
+            padding:47px 0px 47px 0px;
+            width:753px;
+        }
+    /* -- Inf3 */
+    /* Inf4 */
+        #Inf4fld1
+        {
+            font-size: 80px;
+            width:100%;
+            padding:40px 0px 40px 0px;
+        }
+        #Inf4fld2
+        {
+            display: inline-block;
+            width:600px;
+            padding:25px 0px 25px 0px;
+        }
+        #Inf4fldv1_1
+        {
+            width:753px;
+            padding:47px 0px 47px 0px;
+        }
+        #Inf4fldv1_2
+        {
+            width:753px;
+            padding:47px 0px 47px 0px;
+        }
+        #Inf4fldv2
+        {
+            padding:47px 0px 47px 0px;
+            width:753px;
+        
+    /* -- Inf4 */
 }
