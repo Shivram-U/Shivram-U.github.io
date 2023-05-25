@@ -82,6 +82,22 @@
         font-size: 100px;
         padding: 50px 100px 30px 40px;
     }
+    .tb
+    {
+        width: 101%;
+        margin-right: 0px;
+        margin-top: -2px;
+        margin-left: -1px;
+    }
+    .tb td
+    {
+        margin-bottom: 2px;
+    }
+    .rw
+    {
+        width:100%;
+        margin-right: 0px;
+    }
     .fld
     {
         -webkit-user-select: none; /* Safari */
@@ -91,8 +107,7 @@
         display: inline-block;
         z-index: 2;
         position: relative;
-        width:420px;
-        margin-top: 1px;
+        width:422px;
         background-color: #3f3f3f;
         color:#00ffff;
         font-family: Arial, Helvetica, sans-serif;
@@ -101,11 +116,11 @@
     }
     .fldv
     {
-        margin-top: 1px;
+        margin-top: 0px;
         display: inline-block;
         z-index: 2;
         position: relative;
-        width:933px;
+        width:930px;
         background-color: #1f1f1f;
         color:#00ffff;
         text-align: center;
@@ -127,18 +142,22 @@
         }
         #Inf1fld2
         {
-            padding: 40px 0px 40px 0px;
+            padding: 7% 0px 7.2% 0px;
         }
         #Inf1fld3
         {
-            padding: 44px 0px 44px 0px;
+            padding: 40px 0px 40px 0px;
         }
         #Inf1fld4
+        {
+            padding: 44px 0px 44px 0px;
+        }
+        #Inf1fld5
         {
             padding: 40px 0px 40px 0px;
             font-size: 70px;
         }
-        #Inf1fld5
+        #Inf1fld6
         {
             padding: 169px 0px 168px 0px;
             font-size: 80px;
@@ -151,19 +170,23 @@
         }
         #Inf1fldv2
         {
-            padding: 90px 0px 84px 0px;
+            padding: 50px 0px 50px 0px;
         }
         #Inf1fldv3
         {
-            padding: 56px 0px 56px 0px;
-            font-size: 60px;
+            padding: 90px 0px 84px 0px;
         }
         #Inf1fldv4
+        {
+            padding: 4% 0px 4.2% 0px;
+            font-size: 60px;
+        }
+        #Inf1fldv5
         {
             padding: 46px 0px 46px 0px;
             font-size: 60px;
         }
-        #Inf1fldv5
+        #Inf1fldv6
         {
             font-size: 70px;
             padding: 50px 0px 53px 0px;
@@ -172,91 +195,94 @@
     /* Inf2 */
         #Inf2fld1
         {
-            padding: 80px 0px 80px 0px;
+            padding: 9% 0px 9% 0px;
         }
         #Inf2fld2
         {
-            padding: 40px 0px 40px 0px;
+            padding: 3% 0px 4% 0px;
         }
         #Inf2fld3
         {
-            padding: 95px 0px 94px 0px;
+            padding: 9% 0px 9.8% 0px;
         }
         #Inf2fld4
         {
-            padding: 58px 0px 58px 0px;
+            padding: 65px 0px 65px 0px;
         }
         #Inf2fldv1
         {
-            padding: 33px 0px 33px 0px;
+            padding: 6% 0px 5.1% 0px;
         }
         #Inf2fldv2
         {
-            height:173px;
-            padding-top: 7%;
+            padding: 7% 0px 6.9% 0px;
         }
         #Inf2fldv3
         {
-            height: 229px;
-            padding-top: 4%;
+            padding: 6% 0px 5.9% 0px;
         }
         #Inf2fldv4
         {
-            height: 209px;
-            padding-top: 7%;
+            padding: 7% 0px 9.4% 0px;
         }
     /* -- Inf2 */
     /* Inf3 */
         #Inf3fld1
         {
             display: inline-block;
-            width:600px;
-            padding:282px 0px 282px 0px;
+            width:44%;
+            padding:17% 0px 17.5% 0px;
         }
         #Inf3fld2
         {
             display: inline-block;
-            width:600px;
-            padding:95px 0px 95px 0px;
+            width:44%;
+            padding:4% 0px 4% 0px;
+        }
+        #Inf3fld3
+        {
+            display: inline-block;
+            width:44%;
+            padding:4% 0px 4% 0px;
         }
         #Inf3fldv1
         {
-            width:753px;
-            padding:47px 0px 47px 0px;
+            width:56%;
+            padding:3.4% 0px 3.5% 0px;
         }
         #Inf3fldv2
         {
-            padding:47px 0px 47px 0px;
-            width:753px;
+            width:56%;
+            padding: 3.9% 0px 4% 0px;
+        }
+        #Inf3fldv3
+        {
+            width:56%;
+            padding: 3.9% 0px 4% 0px;
         }
     /* -- Inf3 */
     /* Inf4 */
-        #Inf4fld1
+        .fld4
         {
-            font-size: 80px;
+            -webkit-user-select: none; /* Safari */
+            -ms-user-select: none; /* IE 10 and IE 11 */
+            user-select: none; /* Standard syntax */
             width:100%;
-            padding:40px 0px 40px 0px;
-        }
-        #Inf4fld2
-        {
             display: inline-block;
-            width:600px;
-            padding:25px 0px 25px 0px;
+            text-align: center;
+            z-index: 2;
+            background-color: #3f3f3f;
+            color:#00ffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 80px;
+            padding: 40px 0px 40px 0px;
         }
-        #Inf4fldv1_1
+        #Inf4fld
         {
-            width:753px;
-            padding:47px 0px 47px 0px;
+            text-align: left;
+            width:100%;
+            padding:40px 0px 40px 40px;
+            font-size: 80px;
         }
-        #Inf4fldv1_2
-        {
-            width:753px;
-            padding:47px 0px 47px 0px;
-        }
-        #Inf4fldv2
-        {
-            padding:47px 0px 47px 0px;
-            width:753px;
-        
     /* -- Inf4 */
 }

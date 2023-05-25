@@ -109,86 +109,45 @@
         color: #00ffff;
         background-color: #222222;
     }
+    #tb
+    {
+        margin-top:60px;
+        margin-left: 3%;
+        border-spacing: 0px 130px;
+    }
     .Desc
     {
+        width:300px;
+        left: 0px;
+        position: relative;
         z-index: 1;
         opacity: 100%;
-        position: absolute;
-        left:70px;
         width: 550px;
         background-color: #3f3f3f;
         font-family: Helvetica;
         font-size: 70px;
         text-align: center;
-        padding: 15px 0px 15px 0px;
-        border-radius: 60px 0px 0px 60px;
+        border-radius: 100px 0px 0px 100px;
     }
     .Vals
     {
+
+        position: relative;
+        width:800px;
+        left:0px;
         z-index: 0;
         opacity: 100%;
-        position: absolute;
         /*left:410px;*/
-        left: 620px;
-        width: 750px;
         background-color: #000000;
         font-family: Helvetica;
-        font-size:70px;
+        font-size:80px;
         text-align: center;
-        padding: 15px 0px 15px 0px;
-        border-radius: 0px 60px 60px 0px;
+        padding: 50px 0px 50px 0px;
+        border-radius: 0px 100px 100px 0px;
     }
     .Vals:hover
     {
         background-color: #ffffff;
         color: #000000;
-    }
-    #v1
-    {
-        margin-top: 200px;
-    }
-    #v2
-    {
-        margin-top: 400px;
-    }
-    #v3
-    {
-        margin-top: 600px;
-    }
-    #v4
-    {
-        margin-top: 800px;
-    }
-    #v5
-    {
-        margin-top: 1000px;
-    }
-    #v6
-    {
-        margin-top: 1200px;
-    }
-    #d1
-    {
-        margin-top: 200px;
-    }
-    #d2
-    {
-        margin-top: 400px;
-    }
-    #d3
-    {
-        margin-top: 600px;
-    }
-    #d4
-    {
-        margin-top: 800px;
-    }
-    #d5
-    {
-        margin-top: 1000px;
-    }
-    #d6
-    {
-        margin-top: 1200px;
     }
 }
