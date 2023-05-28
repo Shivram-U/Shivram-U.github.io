@@ -18,24 +18,24 @@
         height:50%;
         width:94%;
         padding-bottom: 100px;
-        margin: 3% 0px 0px 3%;
+        margin: 3% 0px 10% 3%;
         border-radius: 20px;
         background-color: #7f7f7f;
     }
     #tgs1
     {   
-        position: relative;
+        position: absolute;
         z-index: 0;
         border-radius: 10px;
         top:30px;
         width: 95%;
         height: 500px;
         margin: 0% 0px 0px 2.5%;
-        background-color: #4f4f4f;
+        background-color: #5f5f5f;
     }
     #prf
     {
-        margin: 100px 0px 0px 50px;
+        margin:8% 0px 0px 2%;
         transform: rotate(-90deg);
         width: 350px;
         height:270px;
@@ -44,7 +44,7 @@
     #inf1
     {
         display: inline-block;
-        margin:-1000px 0px 0px 0px;
+        margin:5% 7% 0px 30%;
         background-color:#5f5f5f;
         border-radius: 10px;
         width:30%;
@@ -53,11 +53,41 @@
     #inf2
     {
         position: relative;
+        margin:0px 0px 0px -50px;
         display: inline-block;
-        margin:-440px 0px 500px 500px;
         background-color:#5f5f5f;
         border-radius: 10px;
         width:30%;
+        height:100%;
+    }
+    #inf3
+    {
+        position: relative;
+        margin:8% 8% 0px 2.5%;
+        display: inline-block;
+        background-color:#5f5f5f;
+        border-radius: 10px;
+        width:45%;
+        height:100%;
+    }
+    #inf4
+    {
+        position: relative;
+        margin:0px 0px 0px -50px;
+        display: inline-block;
+        background-color:#5f5f5f;
+        border-radius: 10px;
+        width:45%;
+        height:100%;
+    }
+    #inf5
+    {
+        position: relative;
+        margin:5% 0px 0px 2.5%;
+        display: inline-block;
+        background-color:#5f5f5f;
+        border-radius: 10px;
+        width:95%;
         height:100%;
     }
     .inflb
@@ -73,7 +103,7 @@
         background-color: #2f2f2f;
         color:#00ddff;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         padding: 2% 0px 2% 0px;
         margin-bottom: 0%;
         border-top-left-radius: 10px;
@@ -85,11 +115,13 @@
         width: 100%;
         margin-right: 0px;
         margin-left: 0px;
+        border-spacing: 0px 2px;
     }
     .tb td
     {
         height: 100%;
         margin-bottom: 0px;
+        
     }
     .rw
     {
@@ -108,7 +140,7 @@
         z-index: 2;
         position: relative;
         height:100%;
-        width:50%;
+        width:35%;
         background-color: #3f3f3f;
         color:#00ffff;
         font-family: Arial, Helvetica, sans-serif;
@@ -118,16 +150,44 @@
     .fldv
     {
         position: relative;
-        width:50%;
+        width:100%;
         background-color: #1f1f1f;
         color:#00ffff;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
-        padding: 20px 0px 20px 0px;
+        padding: 6% 0px 6% 0px;
         height:100%;
     }
-   
+    .fld5
+    {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+        width:100%;
+        text-align: center;
+        z-index: 2;
+        background-color: #3f3f3f;
+        color:#00ffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding: 0.5% 0px 0.5% 0px;
+    }
+    .fldv5
+    {
+        margin-bottom: 1px;
+        margin-left: 2px;
+        z-index: 2;
+        position: relative;
+        height:100%;
+        width:97.8%;
+        background-color: #1f1f1f;
+        color:#00ffff;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding: 1% 1% 1% 1%;
+    }
 }
 /* For Phones */
 @media only screen and (max-width:1500px) and (min-height:2500px)      
