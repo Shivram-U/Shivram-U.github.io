@@ -10,7 +10,7 @@
     html
     {
         color: #00ffff;
-        background-color: #b3b8ff;
+        background-color: #000000;
     }
     #tgs
     {
@@ -20,7 +20,7 @@
         padding-bottom: 100px;
         margin: 3% 0px 10% 3%;
         border-radius: 20px;
-        background-color: #5000a1dc;
+        background-color: #0000ff;
     }
     #tgs1
     {   
@@ -29,9 +29,9 @@
         border-radius: 10px;
         top:30px;
         width: 95%;
-        height: 500px;
+        height: 56%;
         margin: 0% 0px 0px 2.5%;
-        background-color: #737cff;
+        background-color: #2f2f2f;
     }
     #prf
     {
@@ -65,7 +65,7 @@
     #inf3
     {
         position: relative;
-        margin:8% 8% 0px 2.5%;
+        margin:4% 1% 0% 4.5%;
         display: inline-block;
         background-color:#002aff;
         border-top-left-radius: 10px;
@@ -76,7 +76,7 @@
     #inf4
     {
         position: relative;
-        margin:0px 0px 0px -50px;
+        margin:0px 0px 0px 0px;
         display: inline-block;
         background-color:#002aff;
         border-top-left-radius: 10px;
@@ -105,7 +105,7 @@
         z-index: 2;
         position: relative;
         width: 100%;
-        background-color: #2f2f2f;
+        background-color: #000000;
         color:#00ddff;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
@@ -145,8 +145,8 @@
         position: relative;
         height:100%;
         width:35%;
-        background-color: #3f3f3f;
-        color:#00ffff;
+        background-color: #010160;
+        color:#ffffff;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
         text-align: center;
@@ -156,7 +156,7 @@
         position: relative;
         width:100%;
         background-color: #1f1f1f;
-        color:#00ffff;
+        color:#ffffff;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
@@ -168,7 +168,7 @@
         position: relative;
         width:100%;
         background-color: #1f1f1f;
-        color:#00ffff;
+        color:#ffffff;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
@@ -180,7 +180,7 @@
         position: relative;
         width:100%;
         background-color: #1f1f1f;
-        color:#00ffff;
+        color:#ffffff;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
@@ -328,7 +328,7 @@
         font-size: 70px;
         padding: 4% 1% 4% 1%;
     }
-    .fldv5
+    .fldv2
     {
         margin-top: 0px;
         z-index: 2;
