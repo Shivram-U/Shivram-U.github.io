@@ -314,6 +314,34 @@
         font-size: 70px;
         padding: 4% 1% 4% 1%;
     }
+    .fldv4
+    {
+        margin-top: 0px;
+        z-index: 2;
+        position: relative;
+        height:100%;
+        width:100.2%;
+        background-color: #1f1f1f;
+        color:#00ffff;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 70px;
+        padding: 4% 1% 4% 1%;
+    }
+    .fldv5
+    {
+        margin-top: 0px;
+        z-index: 2;
+        position: relative;
+        height:100%;
+        width:100.2%;
+        background-color: #1f1f1f;
+        color:#00ffff;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 70px;
+        padding: 4% 1% 4% 1%;
+    }
     .Content        /* Info Fields Set Collapsible Feature */
     {
         padding: 0 0px;
