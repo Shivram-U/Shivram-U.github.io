@@ -115,7 +115,6 @@ Media Queries:
         -ms-user-select: none; /* IE 10 and IE 11 */
         user-select: none; /* Standard syntax */
         background-color: #777777;
-        height: 177px;
         margin: 0px 0px 0px 0px; /* 1536 -> 1536/2 => 768 - 500/2(width) => 518*/
         padding: 0px 0px 0px 0px;
     }
