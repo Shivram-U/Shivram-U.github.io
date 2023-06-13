@@ -19,7 +19,7 @@ Media Queries:
     }
     html
     {
-        color:#00ff00;
+        color:#00ffff;
         background-color: black;
     }
     #HD
@@ -41,7 +41,7 @@ Media Queries:
         font-size: 30px;
         text-align: center;
         background-color: #000000;
-        color: #00ffff;
+        color: #00ff00;
         margin: 0px 0px 0px 0px;
         padding:0px 0px 0px 0px;
     }
