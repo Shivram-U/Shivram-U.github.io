@@ -40,8 +40,8 @@ Media Queries:
         font-weight: 500;
         font-size: 30px;
         text-align: center;
-        background-color: #ffffff;
-        color: #000055;
+        background-color: #000000;
+        color: #00ffff;
         margin: 0px 0px 0px 0px;
         padding:0px 0px 0px 0px;
     }
@@ -82,6 +82,7 @@ Media Queries:
     }
     .tbs:hover
     {
+        color: #000000;
         background-color: #318aff;
     }
 

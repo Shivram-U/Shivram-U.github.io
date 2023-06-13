@@ -10,7 +10,7 @@
     html
     {
         color: #00ffff;
-        background-color: #222222;
+        background-color: #b3b8ff;
     }
     #tb
     {
@@ -25,12 +25,15 @@
     }
     .Desc
     {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
         position: relative;
         width:400px;
         left: 0px;
         z-index: 1;
         opacity: 180%;
-        background-color: #3f3f3f;
+        background-color: #000000;
         font-family: Helvetica;
         font-size: 175%;
         text-align: center;
@@ -44,7 +47,8 @@
         z-index: 0;
         opacity: 100%;
         /*left:410px;*/
-        background-color: #000000;
+        color:#000000;
+        background-color: #455bff;
         font-size: 175%;
         font-family: Helvetica;
         text-align: center;
@@ -52,8 +56,8 @@
     }
     .Vals:hover
     {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #000044;
+        color: #ffffff;
     }
 }
 /* For Phones */
@@ -78,6 +82,9 @@
     }
     .Desc
     {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
         width:300px;
         left: 0px;
         position: relative;
